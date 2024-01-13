@@ -1,4 +1,4 @@
-name: Mean Bean CI
+name: Mean Bean CI.
 
 on: [push, pull_request]
 
