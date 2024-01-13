@@ -74,7 +74,6 @@ jobs:
         # your project.
       - run: ci/test.bash /tmp/cross ${{ matrix.target }}
         if: |
-          !contains(matrix.target, 'android') &&
           !contains(matrix.target, 'bsd') &&
           !contains(matrix.target, 'solaris') &&
           matrix.target != 'armv5te-unknown-linux-musleabi' &&
