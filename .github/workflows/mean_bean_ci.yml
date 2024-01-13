@@ -88,6 +88,7 @@ jobs:
           - armv7-unknown-linux-gnueabihf
           - i686-unknown-linux-musl
           - x86_64-unknown-linux-musl
+          - android-unknown-linux-musl
 
   windows:
     runs-on: windows-latest
